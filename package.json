@@ -5,5 +5,7 @@
   "workspaces": [
     "apps/*"
   ],
-  "scripts": {}
+  "scripts": {
+    "dev:api": "npm run start:dev --workspace=apps/api"
+  }
 }
